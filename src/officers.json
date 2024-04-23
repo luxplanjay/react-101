@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Jacob Mercer",
+    "rank": "Commander",
+    "age": 42,
+    "yearsOfService": 10,
+    "specialization": "Fighter Pilot",
+    "awards": ["Starfleet Medal of Honor", "Distinguished Service Cross"],
+    "skills": ["Combat Maneuvers", "Navigation", "Strategic Planning"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Red Comet - Battle of Orion Nebula",
+      "Operation Blackout - Stealth Reconnaissance",
+      "Operation Phoenix - Search and Rescue"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Adrian Cross",
+    "rank": "Lieutenant",
+    "age": 35,
+    "yearsOfService": 7,
+    "specialization": "Reconnaissance",
+    "awards": ["Silver Star", "Meritorious Service Medal"],
+    "skills": ["Stealth Operations", "Surveillance", "Data Analysis"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Deep Space - Exploration Mission",
+      "Operation Shadowfall - Covert Surveillance",
+      "Operation Stardust - Intelligence Gathering"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Olawande Brawar",
+    "rank": "Captain",
+    "age": 50,
+    "yearsOfService": 15,
+    "specialization": "Transport Pilot",
+    "awards": ["Purple Heart", "Space Cross"],
+    "skills": ["Astrogation", "Cargo Handling", "Emergency Response"],
+    "status": "Retired",
+    "missionHistory": [
+      "Operation Exodus - Evacuation of New Terra",
+      "Operation Horizon - Colonization Support",
+      "Operation Lifeline - Humanitarian Aid Delivery"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Fauzi Cabrakan",
+    "rank": "Lieutenant Commander",
+    "age": 38,
+    "yearsOfService": 12,
+    "specialization": "Science Officer",
+    "awards": ["Scientific Achievement Award", "Explorer's Commendation"],
+    "skills": ["Research", "Data Analysis", "Experimentation"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Deep Space - Scientific Exploration",
+      "Operation Starlight - Stellar Cartography",
+      "Operation Genesis - Planet Survey"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Francis Oberon",
+    "rank": "Lieutenant",
+    "age": 30,
+    "yearsOfService": 5,
+    "specialization": "Engineering Officer",
+    "awards": ["Engineering Excellence Award", "Innovator's Commendation"],
+    "skills": ["Mechanical Engineering", "Systems Maintenance", "Repair"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Repair Bay - Space Station Maintenance",
+      "Operation Reactor Core - Power System Overhaul",
+      "Operation Warp Drive - Engine Upgrade"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tir Daedalia",
+    "rank": "Lieutenant",
+    "age": 32,
+    "yearsOfService": 8,
+    "specialization": "Communications Officer",
+    "awards": ["Communications Merit Award", "Interstellar Diplomacy Medal"],
+    "skills": ["Interstellar Communications", "Diplomacy", "Translation"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Contact - First Contact Protocol",
+      "Operation Unity - Intergalactic Summit",
+      "Operation Peacekeeper - Negotiation Mission"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Innon Caldwell",
+    "rank": "Commander",
+    "age": 45,
+    "yearsOfService": 14,
+    "specialization": "Fighter Pilot",
+    "awards": ["Starfleet Medal of Honor", "Distinguished Service Cross"],
+    "skills": ["Combat Maneuvers", "Navigation", "Strategic Planning"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Red Comet - Battle of Orion Nebula",
+      "Operation Blackout - Stealth Reconnaissance",
+      "Operation Phoenix - Search and Rescue"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Anurak Swanson",
+    "rank": "Lieutenant",
+    "age": 33,
+    "yearsOfService": 6,
+    "specialization": "Reconnaissance",
+    "awards": ["Silver Star", "Meritorious Service Medal"],
+    "skills": ["Stealth Operations", "Surveillance", "Data Analysis"],
+    "status": "Active",
+    "missionHistory": [
+      "Operation Deep Space - Exploration Mission",
+      "Operation Shadowfall - Covert Surveillance",
+      "Operation Stardust - Intelligence Gathering"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Holden Holloway",
+    "rank": "Captain",
+    "age": 48,
+    "yearsOfService": 17,
+    "specialization": "Transport Pilot",
+    "awards": ["Purple Heart", "Space Cross"],
+    "skills": ["Astrogation", "Cargo Handling", "Emergency Response"],
+    "status": "Retired",
+    "missionHistory": [
+      "Operation Exodus - Evacuation of New Terra",
+      "Operation Horizon - Colonization Support",
+      "Operation Lifeline - Humanitarian Aid Delivery"
+    ]
+  }
+]
