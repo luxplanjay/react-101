@@ -1,0 +1,21 @@
+.btn {
+  color: #fff;
+}
+
+.primary {
+  background-color: blueviolet;
+}
+
+.secondary {
+  background-color: orangered;
+}
+
+.sizeSm {
+  padding: 8px;
+}
+.sizeMd {
+  padding: 12px;
+}
+.sizeLg {
+  padding: 20px;
+}
