@@ -1,8 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Progress from "../Progress/Progress";
 
+const getInitialIndex = () => {
+  const saveIndex = localStorage.getItem("reader-index");
+  if (saveIndex !== null) {
+    return JSON.parse(saveIndex);
+  }
+  return 0;
+};
+
 export default function Reader({ articles }) {
-  const [articleIdx, setArticleIdx] = useState(0);
+  const [articleIdx, setArticleIdx] = useState(getInitialIndex);
 
   const handlePrev = () => {
     setArticleIdx(articleIdx - 1);
@@ -11,6 +19,10 @@ export default function Reader({ articles }) {
   const handleNext = () => {
     setArticleIdx(articleIdx + 1);
   };
+
+  useEffect(() => {
+    localStorage.setItem("reader-index", articleIdx);
+  }, [articleIdx]);
 
   const currentArticle = articles[articleIdx];
   const isFirst = articleIdx === 0;
