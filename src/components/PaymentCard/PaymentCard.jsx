@@ -1,7 +1,8 @@
-import css from "./PaymentCard.module.css";
+import { Link } from 'react-router-dom';
+import css from './PaymentCard.module.css';
 
 export default function PaymentCard({
-  payment: { cardOwner, amount, description },
+  payment: { id, cardOwner, amount, description },
 }) {
   return (
     <div className={css.wrapper}>
@@ -14,7 +15,10 @@ export default function PaymentCard({
       <p>
         <b>Description:</b> {description}
       </p>
-      <b>Details (page link)</b>
+      <b>
+        <Link to={`${id}`}>Details</Link>
+        {/* <Link to={`/payments/${id}`}>Details</Link> */}
+      </b>
     </div>
   );
 }

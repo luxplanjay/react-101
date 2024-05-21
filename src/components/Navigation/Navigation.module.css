@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.active {
+  color: orangered;
+  text-decoration: underline;
+}
