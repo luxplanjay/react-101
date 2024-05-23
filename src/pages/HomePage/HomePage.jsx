@@ -1,4 +1,8 @@
+import { Link, useLocation } from 'react-router-dom';
+
 export default function HomePage() {
+  const location = useLocation();
+
   return (
     <div>
       <h2>Home Page</h2>
@@ -21,6 +25,9 @@ export default function HomePage() {
         incidunt odit ut? Temporibus, dolore. Expedita consequatur atque
         cupiditate ratione voluptatum.
       </p>
+      <Link to="/payments/5" state={location}>
+        To details 5
+      </Link>
     </div>
   );
 }

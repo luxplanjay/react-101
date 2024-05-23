@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import css from './PaymentCard.module.css';
 
 export default function PaymentCard({
   payment: { id, cardOwner, amount, description },
 }) {
+  const location = useLocation();
+
   return (
     <div className={css.wrapper}>
       <p>
@@ -16,8 +18,9 @@ export default function PaymentCard({
         <b>Description:</b> {description}
       </p>
       <b>
-        <Link to={`${id}`}>Details</Link>
-        {/* <Link to={`/payments/${id}`}>Details</Link> */}
+        <Link to={`/payments/${id}`} state={location}>
+          Details
+        </Link>
       </b>
     </div>
   );
