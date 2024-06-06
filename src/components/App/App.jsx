@@ -6,12 +6,14 @@ import Error from "../Error/Error";
 import TaskForm from "../TaskForm/TaskForm";
 import TextFilter from "../TextFilter/TextFilter";
 import { fetchTasks } from "../../redux/tasksOps";
+import { selectError, selectLoading } from "../../redux/tasksSlice";
 import css from "./App.module.css";
+import TaskCounter from "../TaskCounter/TaskCounter";
 
 export default function App() {
   const dispatch = useDispatch();
-  const isLoading = useSelector(state => state.tasks.loading);
-  const isError = useSelector(state => state.tasks.error);
+  const isLoading = useSelector(selectLoading);
+  const isError = useSelector(selectError);
 
   useEffect(() => {
     dispatch(fetchTasks());
@@ -20,6 +22,7 @@ export default function App() {
   return (
     <main className={css.container}>
       <h1>HTTP requests with Redux</h1>
+      <TaskCounter />
       <TaskForm />
       <TextFilter />
       {isLoading && <Loader>Loading message</Loader>}
